@@ -1,4 +1,5 @@
 {
+ "name": "run-in-barm-demo",
  "frontend":{
     "sourceDir": "frontend",
     "distDir": "dist",
