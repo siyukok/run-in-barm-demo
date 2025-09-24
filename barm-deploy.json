@@ -1,0 +1,19 @@
+{
+ "frontend":{
+    "sourceDir": "frontend",
+    "distDir": "dist",
+    "prepareCommand": "npm install",
+    "buildScript": "npm run build"
+ },
+ "backend":{
+    "image": "barm-agent-service",
+    "tag": "latest",
+    "port": 8080,
+    "env": {
+        "PORT": "8080"
+    },
+    "volumes": [],
+    "dependsOn": [],
+    "deployCommand": "docker compose up -d"
+ }   
+}
